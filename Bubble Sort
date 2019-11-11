@@ -1,5 +1,5 @@
 for(i=0;i<9;i++)
-		for(j=1;j<10;j++)
+		for(j=1;j<10-i;j++)
 			if(x[j-1]>x[j])
 			{
 				t=x[j-1];
